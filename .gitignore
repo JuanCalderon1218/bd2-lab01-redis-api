@@ -9,3 +9,10 @@ obj/
 .env.*
 !.env.example
 '@ | Set-Content -Encoding utf8 .gitignore
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
